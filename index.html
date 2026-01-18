@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Truth Perspective</title>
+
+<link rel="icon" type="image/jpg" href="favicon.jpg">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+<style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+        font-family: 'Roboto', sans-serif;
+        background-color: #eef3f9; 
+        color: #1f2a44;
+        line-height: 1.6;
+    }
+
+    /* ===== Banner ===== */
+    header {
+        background-color: #1f4fd8; 
+        color: #ffffff;
+        padding: 55px 20px;
+        text-align: center;
+        position: relative;
+    }
+
+    header h1 { font-size: 2.8rem; margin-bottom: 10px; }
+    header p {
+        max-width: 720px;
+        margin: 0 auto 25px;
+        font-size: 1.1rem;
+        opacity: 0.95;
+    }
+
+    nav {
+        display: flex;
+        justify-content: center;
+        gap: 28px;
+        margin-bottom: 25px;
+    }
+
+    nav a {
+        color: #ffffff;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    nav a:hover { text-decoration: underline; }
+
+    .banner-btn {
+        display: inline-block;
+        padding: 13px 30px;
+        background-color: #d62828; 
+        color: #ffffff;
+        text-decoration: none;
+        font-weight: bold;
+        border-radius: 30px;
+        transition: background-color 0.2s ease, transform 0.2s ease;
+    }
+
+    .banner-btn:hover {
+        background-color: #b61f1f;
+        transform: translateY(-2px);
+    }
+
+    main { max-width: 900px; margin: 45px auto; padding: 0 20px; }
+
+    section { margin-bottom: 55px; }
+
+    section h2 { color: #1f4fd8; margin-bottom: 20px; }
+
+    article {
+        background-color: #ffffff;
+        padding: 28px;
+        margin-bottom: 25px;
+        border-radius: 10px;
+        box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+        border-left: 6px solid #d62828; 
+    }
+
+    article h3 { margin-bottom: 10px; color: #1f2a44; }
+
+    article h3 a { color: #1f2a44; text-decoration: none; }
+
+    article h3 a:hover { color: #d62828; text-decoration: underline; }
+
+    article p { margin-bottom: 10px; color: #333; }
+
+    footer {
+        background-color: #1f4fd8;
+        color: #ffffff;
+        text-align: center;
+        padding: 22px;
+    }
+
+    a { color: #d62828; }
+    a:hover { text-decoration: underline; }
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>Truth Perspective</h1>
+    <p>
+        An evidence-based site examining long-held beliefs,
+        modern data, and where old tradition collides with today.
+    </p>
+
+    <nav>
+        <a href="articles.html">Articles</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <a href="articles.html" class="banner-btn">Read the Articles</a>
+</header>
+
+<main>
+
+    <!-- Latest Articles Section -->
+    <section id="latest-articles">
+        <h2>Latest Articles</h2>
+
+        <article>
+            <h3><a href="articles/health/mental-institutions.html">Mental Health Facilities: Outcomes, Challenges, and Reform</a></h3>
+            <p>
+                A deep dive into mental health institutions, exploring research-backed outcomes,
+                challenges, and modern reforms shaping better societal impact.
+            </p>
+        </article>
+
+        <article>
+            <h3><a href="articles/culture/transgender-inclusion.html">Understanding Transgender Inclusion: Research and Social Outcomes</a></h3>
+            <p>
+                Evidence-based insights into transgender inclusion, its social and economic impact,
+                and what the research says about fairness, productivity, and family stability.
+            </p>
+        </article>
+
+        <article>
+            <h3><a href="articles/education/education-system.html">Rethinking Education: Does the Traditional Model Still Work?</a></h3>
+            <p>
+                Analyzing the modern education system versus long-standing traditions, and what
+                research suggests about potential reforms for student outcomes.
+            </p>
+        </article>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About</h2>
+        <p>
+            This site is independent and non-partisan.
+            Its purpose is to challenge assumptions using
+            logic, research, and documented facts — regardless
+            of who finds those facts uncomfortable.
+        </p>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>
+            Sources, corrections, or counterarguments are welcome:
+            <a href="mailto:contact@truthperspective.com">
+                contact@truthperspective.com
+            </a>
+        </p>
+    </section>
+
+</main>
+
+<footer>
+    &copy; 2026 Truth Perspective
+</footer>
+
+</body>
+</html>
